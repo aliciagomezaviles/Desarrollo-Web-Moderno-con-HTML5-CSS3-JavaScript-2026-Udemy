@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas y tablas en HTML</title>
+</head>
+<body>
+    <!-- Lista desordenada -->
+     <ul>
+        <li>Manzanas</li>
+        <li>Plátanos</li>
+        <li>Uvas</li>
+     </ul>
+    <!-- Lista ordenada -->
+      <ol>
+        <li>Apartamentos</li>
+        <li>Casas</li>
+        <li>Lotes</li>
+      </ol>
+    <!-- Lista de definición -->
+       <dl>
+        <dt>HTML</dt>
+        <dd>Lenguaje de marcado de hipertexto utilizado en la creación de sitios web</dd>
+       <dt>CSS</dt>
+       <dd>Lenguaje de hojas de estilo utilizado para dar estilo a los documentos HTML</dd>
+       </dl>
+    <!-- Tabla básica -->
+        <table border="2">
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ubicación</th>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>25</td>
+                <td>Madrid</td>
+            </tr>
+            <tr>
+                <td>Lucía</td>
+                <td>35</td>
+                <td>Barcelona</td>
+            </tr>
+            <tr>
+                <td>Marta</td>
+                <td>22</td>
+                <td>Bogotá</td>
+            </tr>
+        </table>
+<br>
+    <!-- Tabla mejorada -->
+     <table border="2">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ubicación</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carlos</td>
+                <td>25</td>
+                <td>Madrid</td>
+            </tr>
+            <tr>
+                <td>Lucía</td>
+                <td>35</td>
+                <td>Barcelona</td>
+            </tr>
+            <tr>
+                <td>Marta</td>
+                <td>22</td>
+                <td>Bogotá</td>
+            </tr>
+        </tbody>
+     </table>
+<br>
+<!-- Tabla avanzada -->
+ <table border="2">
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th colspan="2">Descripción</th>
+            <th>Precio</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">Laptop</td>
+            <td>Marca</td>
+            <td>HP</td>
+            <td>800$</td>
+        </tr>
+        <tr>
+            <td>Procesador</td>
+            <td>Intel core i7</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Smartphone</td>
+            <td colspan="2">Samsung Galaxy S21</td>
+            <td>700$</td>
+        </tr>
+    </tbody>
+ </table>
+
+ <!-- Lista anidada -->
+  <ul>
+    <li>Comprar víveres
+    <ul>
+        <li>Leche</li>
+        <li>Pan</li>
+        <li>Fruta
+        <ul> 
+            <li>Manzanas</li>
+            <li>Plátanos</li>
+            <li>Naranjas</li>
+        </ul>
+        </li>
+        <li>Verduras
+        <ul>
+            <li>Espinacas</li>
+            <li>Bróocoli</li>
+            <li>Zanahorias</li>
+            </ul>
+        </li>
+    </ul>
+    <li>Lavar el coche</li>
+    <li>Hacer ejercicio</li>
+  </body>
+
+
+
+</body>
+</html>

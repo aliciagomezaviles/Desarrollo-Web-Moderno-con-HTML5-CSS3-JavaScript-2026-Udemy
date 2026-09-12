@@ -1,0 +1,52 @@
+body{
+    background-color: grey;
+}
+
+
+
+
+/* Puedes usar nombre de colores predefinidos en CSS como "red", "blue", "green", entre otros. */
+
+h1{
+    color: coral;
+}
+
+.caja1{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+/* Puedes definir colores usando valores hexadecimales de 6 dígitos (RRGGBB), donde RR representa la intensidad del rojo, GG la intensidad del verde y BB la intensidad del azul. */
+
+h2{
+    color: #00ff00;
+}
+
+/* RGB - RED-GREEN-BLUE van de 0 a 255  */
+
+h3{
+    color: rgb(230, 14, 111)
+}
+
+/* RGBA - RED-GREEN-BLUE-ALPHA van de 0 a 255. La parte "Alpha" controla la opacidad del color. (0 = transparente, 1 = opaco)  */
+
+h4{
+    color: rgba(230, 14, 111, 0.5);
+    font-size: 48px;
+}
+
+
+/* Puedes utilizar valores HSL (Hue, Saturation, Lighness) o HSLA (Hue, Saturation, Lightness, Alpha) para definir colores. El valor de "Hue" representa el tono, "Saturation" la saturación, y "Lightness" la luminosidad. */
+
+h5{
+    color: hsla(60, 100%, 50%, 0.7);
+    font-size: 32px;
+}
+
+
+/* Puedes utilizar la palabra clave "transparent" para definir un color completamente transparente */
+
+h6{
+    color: transparent;
+}

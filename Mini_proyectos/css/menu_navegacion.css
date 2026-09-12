@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(40, 40, 40);
+}
+
+ul{
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover{
+    cursor: pointer;
+    color: grey;
+    text-decoration: underline;
+}

@@ -1,0 +1,36 @@
+/* body{
+    font-family: "winky rough", sans-serif;
+} */
+
+/* h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#empresa p span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:antiquewhite;
+} */
+
+@font-face {
+    font-family: "admire-gustavo";
+    src: url("../fuentes/Admire\ Gustavo.otf");
+}
+
+body{
+    font-family: "admire-gustavo";
+}
+
+.articulo2{
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: rebeccapurple;
+    line-height: 1.6em;
+    letter-spacing: 2px;
+}

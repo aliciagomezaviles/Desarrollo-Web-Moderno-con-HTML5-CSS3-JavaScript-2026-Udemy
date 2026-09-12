@@ -1,0 +1,32 @@
+.caja{
+    background-color: orangered;
+    width: 200px;
+    height: 200px;
+    /* margin: 10px; */
+    display: inline-block;
+}
+
+.especial{
+    background-color: blueviolet;
+    position: absolute;
+    /* top: 30px;
+    left: -20px; */
+    right: 0;
+    top: 0;
+}
+
+.contenedor{
+    position: relative;
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+}
+
+.elemento-absoluto{
+    background-color: olive;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}

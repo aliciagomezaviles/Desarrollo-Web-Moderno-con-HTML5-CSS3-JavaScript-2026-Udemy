@@ -1,0 +1,19 @@
+html{
+    font-size: 14px;
+}
+
+.caja{
+    font-size: 12px;
+}
+
+.caja h2{
+    font-size: 4rem;
+}
+
+.caja p{
+    font-size: 2rem;
+}
+
+ul{
+    font-size: 1rem;
+}
